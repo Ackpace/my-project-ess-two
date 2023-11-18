@@ -86,7 +86,7 @@ const Layout = ({ children }: Props) => {
       theme: 'dark',
       position: toast.POSITION.BOTTOM_RIGHT
     });
-  }
+  } 
 
   return (
     <div className="layout">

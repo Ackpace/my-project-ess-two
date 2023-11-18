@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="movie_card"
+    id="bright"
+  >
+    <div
+      class="info_section"
+    >
+      <div
+        class="movie_header"
+      >
+        <img
+          class="locandina"
+          src="https://image.tmdb.org/t/p/w500//73gIfV8gDwkVgUrFDzt4TfZC9Zc.jpg"
+        />
+        <h1>
+          It Lives Inside
+        </h1>
+        <h4>
+          2023-09-06
+        </h4>
+        <span
+          class="minutes"
+        >
+          5.9
+        </span>
+        <p
+          class="type"
+        >
+          It Lives Inside
+        </p>
+      </div>
+      <div
+        class="movie_desc"
+      >
+        <p
+          class="text"
+        >
+          Desperate to fit in at school, Sam rejects her
+        </p>
+      </div>
+      <div
+        style="display: flex; margin: 5px; justify-content: flex-start;"
+      >
+        <div
+          style="margin: 5px;"
+        >
+          <li>
+            <button
+              class="card_btn"
+            >
+              Watch Trailer
+            </button>
+          </li>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img
+        class="blur_back"
+        src="https://image.tmdb.org/t/p/w500//dp0rdbGSbZTyWumnbWspXQp87hA.jpg"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

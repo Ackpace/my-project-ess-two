@@ -60,7 +60,7 @@ function Avatars(props: AvatarsProp) {
             eventBus.dispatch('updateAvatar', imgSrc[idx].img)
         }
     }
-
+ 
     return (
         <div className='avatars'>
             {props.userName && <h1>Hi, {firstName}</h1>}

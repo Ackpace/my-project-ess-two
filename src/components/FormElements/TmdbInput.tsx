@@ -41,6 +41,6 @@ function TmdbInput(props: TmdbInputProps) {
             />
         </div>
     )
-}
+} 
 
 export default TmdbInput

@@ -50,10 +50,10 @@ function SignIn() {
       position: toast.POSITION.BOTTOM_RIGHT
     })
   }
-
+ 
   return (
     <div className="sign-in-container">
-      <h1 className='text-3xl'>Welcome Back! <span>&#128075;</span></h1>
+      <h1 className='text-3xl' data-testid="welcome">Welcome Back! <span>&#128075;</span></h1>
       <form onSubmit={getSignedIn}>
         <TmdbInput
           label='Email'
@@ -68,9 +68,10 @@ function SignIn() {
           placeholder='ex) 123123'
           onChange={onChange}
           id='password'
+          data-testid="passwordidnew"
         />
         <div className="form-buttons-container">
-          <Button>Sign in</Button>
+          <Button data-testid="passwordidnew">Sign in</Button>
           <Button linkTo="/signup">Register Instead</Button>
         </div>
       </form>

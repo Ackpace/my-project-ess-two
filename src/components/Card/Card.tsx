@@ -26,7 +26,7 @@ interface CardPropType {
   index?: number,
   onChangeBackgroundImage?: (newImage: string) => void
 }
-
+ 
 const Card = ({ data, alreadyFav, landscape, index, onChangeBackgroundImage }: CardPropType) => {
   const [isHovered, setIsHovered] = useState(false)
   const [isFavorite, setIsFavorite] = useState(false)

@@ -26,7 +26,7 @@ const Rate = ({ rate, size }: Props) => {
             </div>
         </div>
     );
-};
+}; 
 
 Rate.defaultProps = {
     rate: 0,

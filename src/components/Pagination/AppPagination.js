@@ -10,7 +10,7 @@ const AppPagination = ({setPage, pageNumber}) =>{
 
     const handleChange = (page) =>{
         setPage(page)
-    }
+    } 
     
     return(
     <div className="container">
@@ -21,7 +21,7 @@ const AppPagination = ({setPage, pageNumber}) =>{
                 display:"flex",
                 justifyContent: "center"
 
-            }} variant="outlined" count={pageNumber}/>
+            }} variant="outlined" data-testid="count" count={pageNumber}/>
         </div>
     </div>
 

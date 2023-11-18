@@ -87,7 +87,7 @@ function Home() {
       setIsLoading(false)
     }
   }, [onTVData, popularData, upcomingData, forRentData])
-
+ 
   const titles = ['Popular', 'Upcoming', 'For Rent']
 
   const handleIsSelected = (id: number): boolean => {
@@ -144,8 +144,8 @@ function Home() {
         <Hero />
       </section>
       <section>
-        <div className='space-y-8'>
-          <Tabs tabTitles={titles} title='Trending'>
+        <div data-testid="tabs"  className='space-y-8'>
+          <Tabs  tabTitles={titles} title='Trending'>
             {popularList()}
             {upcomingList()}
             {forRentList()}

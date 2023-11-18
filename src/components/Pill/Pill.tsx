@@ -32,7 +32,7 @@ const Pill = ({ children, selectable, onClickHandler }: PillPropTypes) => {
 }
 
 export default Pill
-
+ 
 Pill.defaultProps = {
     selectable: false
 }

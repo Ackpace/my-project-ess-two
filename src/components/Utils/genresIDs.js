@@ -8,7 +8,7 @@ const genresIDs = (selectedGenres) =>{
     return genresId?.reduce((acc, curr)=> acc + ',' + curr)
 }
 
-
+ 
 export default genresIDs
 
 

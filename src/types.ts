@@ -37,7 +37,7 @@ export interface TVWithRateType {
     contentData: TVObjectType,
     rating: string
 }
-
+ 
 export interface MovieObjectType {
     backdrop_path: string,
     poster_path: string,

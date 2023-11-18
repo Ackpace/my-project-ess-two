@@ -11,7 +11,7 @@ interface TabNavItemPropTypes {
 const TabNavItem = ({ id, activeTab, title, isSingleTab, setActiveTab }: TabNavItemPropTypes) => {
     const handleClick = () => {
         setActiveTab(id)
-    }
+    } 
 
     return (
         isSingleTab ? <h3 className='single-tab-title'>{title}</h3> :

@@ -44,7 +44,7 @@ const Button = (props: ButtonProps) => {
       <NavLink className={buttonClasses} to={props.linkTo}>
         {props.children}
       </NavLink>
-    </div>
+    </div> 
   ) : (
     <button className={buttonClasses} onClick={props.onClick}>
       {props.children}

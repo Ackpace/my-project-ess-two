@@ -58,7 +58,7 @@ const Hero = () => {
       })
     }
   }, [])
-
+ 
   const MobileHero = () => (
     <div className="mobile-hero-container">
       <div className='mobile-resume-button-container'>

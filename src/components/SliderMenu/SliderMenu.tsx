@@ -11,11 +11,11 @@ const SliderMenu = () => {
     const closeSliderMenu = () => { setIsMenuOpen(false) }
 
     return (
-        <div className='slider-menu'>
-            <Button type={ButtonTypes.noBorder} onClick={() => { setIsMenuOpen(true) }}>
+        <div role="slidermenubutton" className='slider-menu'>
+            <Button  type={ButtonTypes.noBorder} onClick={() => { setIsMenuOpen(true) }}>
                 <FontAwesomeIcon icon={faBars} />
             </Button>
-            <div className={isMenuOpen ? 'menu-list open' : 'menu-list'}>
+            <div role="contentinfo" className={isMenuOpen ? 'menu-list open' : 'menu-list'}>
                 <div className='absolute top-1 right-1'>
                     <Button type={ButtonTypes.circle} onClick={closeSliderMenu}>
                         <FontAwesomeIcon icon={faXmark} />
@@ -29,6 +29,6 @@ const SliderMenu = () => {
             </div>
         </div>
     )
-}
+} 
 
 export default SliderMenu

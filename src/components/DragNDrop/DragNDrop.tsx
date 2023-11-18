@@ -91,9 +91,9 @@ function DragNDrop() {
             console.log('no file selected!!');
         }
     }
-
+ 
     return (
-        <div className={`drag-n-drop-container ${dragActive ? 'drag-active' : ''}`} onDragEnter={handleDrag}>
+        <div role='divn' className={`drag-n-drop-container ${dragActive ? 'drag-active' : ''}`} onDragEnter={handleDrag}>
             <TmdbInput
                 type={InputTypes.file}
                 onChange={handleFileInput}

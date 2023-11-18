@@ -33,7 +33,7 @@ const Snippet = () => {
             </div>
         )
     }
-
+ 
     return (
         <>
             {favs ? favs.map((movie, idx) => {

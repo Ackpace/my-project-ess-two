@@ -60,7 +60,7 @@ const Tabs = ({ children, tabTitles, title, backgroundImg }: TabsPropTypes) => {
                 }
             </div>
         </div >
-    )
+    ) 
 }
 
 export default Tabs

@@ -146,7 +146,7 @@ const ContentHero = (props: ContentHeroPropType) => {
                         <p>{props.content.contentData.overview}</p>
                         <Rate rate={Math.floor(props.content.contentData.vote_average || 0)} size={SizeType.medium} />
                         <br />
-                        <Button onClick={toggleModal}>Play Trailer</Button>
+                        <Button data-testid="contentbutton" onClick={toggleModal}>Play Trailer</Button>
                         {
                             isModalOpen ?
                                 <>
@@ -163,7 +163,7 @@ const ContentHero = (props: ContentHeroPropType) => {
             </>
         }</>
     }
-
+ 
     return (
         <div className='content-hero-container'>
             {

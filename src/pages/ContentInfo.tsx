@@ -122,9 +122,9 @@ const ContentIntro = () => {
                 setRating(rating)
             }
         }
-    }
+    } 
     return (
-        <div className='space-y-4'>
+        <div data-testid="custom-element" className='space-y-4'>
             {
                 platform === PlatformTypes.movie ? (movieDataWithRate && <ContentHero type={PlatformTypes.movie} content={movieDataWithRate} />) :
                     (TVDataWithRate && <ContentHero type={PlatformTypes.tv} content={TVDataWithRate} />)

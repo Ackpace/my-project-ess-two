@@ -44,13 +44,15 @@ const Tooltip = ({ children, content, position, delay }: TooltipType) => {
         clearInterval(timeout)
         setIsActive(false)
     }
-
-
-    useEffect(() => {
+ 
+    console.profile();
+    useEffect(() => {/*
         if (tooltipChildRef.current) {
             setChildWidth(tooltipChildRef.current.offsetWidth)
-        }
+        }*/
+        tooltipChildRef.current? setChildWidth(tooltipChildRef.current.offsetWidth) : console.log("")
     }, [])
+    console.profileEnd();
 
     return (
         <div className='new-tooltip-container' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>

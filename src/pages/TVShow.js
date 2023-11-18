@@ -184,7 +184,7 @@ function Shows() {
 
     const genreIds = genresIDs(selectedGenres)
 
-    
+     
     const fetchMovies = async () =>{
                 try{
                     const {data} = await axios.get(`https://api.themoviedb.org/3/discover/movie?api_key=1160cac5ff26e1cc795d5733856ce01c&language=en-US&sort_

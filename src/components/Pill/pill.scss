@@ -9,7 +9,7 @@
     &.selectable:hover {
         cursor: pointer;
     }
-
+ 
     &.selected {
         background-color: var(--tmdb-secondary);
         border: 1px solid var(--tmdb-secondary);

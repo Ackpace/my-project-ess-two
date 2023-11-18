@@ -22,7 +22,7 @@ const Genres = ({genres, setGenres, selectedGenres,setSelectedGenres }) =>{
     const handleRemoveGenres = genre =>{
         setSelectedGenres(selectedGenres?.filter(selected => selected?.id !== genre?.id));
         setGenres([...genres,genre]);
-    }
+    } 
 
     return(
         <div style={{padding:"10px 0"}}>
@@ -37,6 +37,7 @@ const Genres = ({genres, setGenres, selectedGenres,setSelectedGenres }) =>{
     )
 
 }
+
 
 export default Genres
 

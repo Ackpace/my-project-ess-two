@@ -19,7 +19,7 @@ const Accordion = ({ children, title, open }: AccordionProp) => {
         if (open) setIsActive(true)
     }, [open])
 
-    return (
+    return ( 
         <div className='accordion-container'>
             <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
                 <h2 className='mb-1'>{title}</h2>

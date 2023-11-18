@@ -7,7 +7,7 @@ $tooltip-width: 250px;
     position: relative;
     display: inline-block;
     color: var(--tmdb-primary);
-
+ 
     .tooltip-tip {
         width: $tooltip-width;
         max-width: $tooltip-width;

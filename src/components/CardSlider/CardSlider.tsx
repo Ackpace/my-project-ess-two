@@ -69,7 +69,7 @@ const CardSlider = ({ children, isLoading }: CardSliderProps) => {
             />
           </div>
         ) : null
-      }
+      } 
 
       <div className="contents space-x-4" ref={contentsRef}>
         {isLoading ? <Loader /> : children}

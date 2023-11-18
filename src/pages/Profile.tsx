@@ -47,11 +47,11 @@ function Profile() {
       ) : <SignIn />}
 
       <br />
-
+ 
       {contextUser && (
         <>
           <div className='text-right pr-4'>
-            <Button
+            <Button data-testid="buttn"
               onClick={logout}
               children={"Log out"}
             />

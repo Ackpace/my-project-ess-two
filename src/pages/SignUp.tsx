@@ -14,12 +14,12 @@ import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import { FirebaseError } from "firebase/app";
 
-function SignUp() {
+function SignUp({}) {
   interface formDataType {
     name: string;
     email: string;
     password: string;
-  }
+  } 
   const [formData, setFormData] = useState<formDataType>({
     name: "",
     email: "",
@@ -77,15 +77,16 @@ function SignUp() {
   }
 
   return (
-    <div className="sign-up-container">
+    <div data-testid="signupform" className="sign-up-container">
       <h1>Join Us!</h1>
-      <form className="sign-up-form" onSubmit={register}>
-        <TmdbInput
+      <form  data-testid="login-form" className="sign-up-form" onSubmit={register}>
+        <TmdbInput 
           label='name'
           type={InputTypes.text}
           onChange={onChange}
           placeholder='Jay Oh'
           id='name'
+          data-testid="btn-increment"
         />
         <TmdbInput
           label='E-mail'
@@ -93,6 +94,7 @@ function SignUp() {
           onChange={onChange}
           placeholder='JayIsAwesome@gmail.com'
           id='email'
+          data-testid="btns-increment"
         />
         <TmdbInput
           label='Password'
@@ -101,7 +103,7 @@ function SignUp() {
           placeholder='123123'
           id='password'
         />
-        <Button children={"Register"} size={ButtonSizes.small} />
+        <Button data-testid="registebutton" children={"Register"} size={ButtonSizes.small} />
       </form>
       <NavLink to="/signin">Sign In Instead</NavLink>
       <ToastContainer />

@@ -4,7 +4,7 @@ export const favoritesSlice = createSlice({
     name: 'favorites',
     initialState: {
         movies: []
-    },
+    }, 
     reducers: {
         INITIALIZE: (state, action) => {
             state.movies = action.payload || []

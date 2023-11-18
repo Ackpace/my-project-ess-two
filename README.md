@@ -2,7 +2,7 @@
 
 A mock web application with data from The Movie Database, built with React, Redux, Typescript, SCSS, TailwindCSS, and Firebase.
 Demo: https://jayohtmdb.netlify.app/home 
-
+ 
 ## Explanation
 The Movie Database provides vast amount of movie/TV data and actors. With the TMDB data, I'm building my own kingdom that looks like any streaming site such as Netflix. It's not following the exact same design or pattern from a company's site. Instead, I add things that I think it's cool. For example, the home page design is mostly coming from TMDB but the profile page is Peacock style. It's my playground to teach myself about front-end skills. 
 
