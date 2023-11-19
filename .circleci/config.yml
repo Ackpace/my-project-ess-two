@@ -26,6 +26,6 @@ jobs:
       # run tests!
       - run: npm test
 
-      - run: npm start
+      - run: npm build
 
       - run: npm netlify:deploy
