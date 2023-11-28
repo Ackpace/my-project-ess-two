@@ -2,7 +2,7 @@ import { useEffect, useState, useCallback } from 'react'
 import  Pagination  from "@mui/material/Pagination";
 import "./App-Pagination.scss";
 
-
+ 
 
 
 const AppPagination = ({setPage, pageNumber}) =>{

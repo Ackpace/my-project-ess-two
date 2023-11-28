@@ -7,7 +7,7 @@ import { UserContext, ResponsivenessContext } from '../Layout/Layout'
 import { doc, getDoc } from "firebase/firestore"
 import { db } from '../../firebase.config'
 import eventBus from "../../assets/utilities/EventBus"
-import {
+import { 
   User as FirebaseUser,
 } from 'firebase/auth'
 import Tooltip, { ToolTipPosition } from '../Tooltip/Tooltip'

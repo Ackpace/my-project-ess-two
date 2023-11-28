@@ -6,7 +6,7 @@ import { doc, setDoc, getDoc } from "firebase/firestore"
 import { db } from '../../firebase.config'
 import { getStorage, ref, deleteObject } from "firebase/storage"
 import eventBus from "../../assets/utilities/EventBus"
-import {
+import { 
     User as FirebaseUser,
 } from 'firebase/auth'
 import './avatars.scss'

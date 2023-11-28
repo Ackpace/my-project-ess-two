@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 import SignIn from "../components/SignIn/SignIn"
 import Avatars from "../components/Avatar/Avatars"
 import { UserContext } from '../components/Layout/Layout'
-import {
+import { 
   User as FirebaseUser,
 } from 'firebase/auth'
 import Button from "../components/Button/Button"

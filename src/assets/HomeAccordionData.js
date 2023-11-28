@@ -3,7 +3,7 @@ const HomeAccordionData = [
         title: 'Why The Movie Database?',
         content: 'The Movie Database (TMDB) is a community built movie and TV database. Every piece of data has been added by our amazing community dating back to 2008. TMDBs strong international focus and breadth of data is largely unmatched and something we are incredibly proud of. Put simply, we live and breathe community and that is precisely what makes us different.'
     }, 
-    {
+    { 
         title: 'The TMDB advantage',
         content: 'Every year since 2008, the number of contributions to our database has increased. With over 750,000 developers and companies using our platform, TMDB has become a premiere source for metadata.'
     },

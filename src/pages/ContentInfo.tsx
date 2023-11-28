@@ -11,7 +11,7 @@ interface ReleaseDatesType {
     iso_3166_1: string,
     release_dates: [{ certification: string }]
 }
-
+ 
 const ContentIntro = () => {
     let location = useLocation()
     const [id, setId] = useState(0)

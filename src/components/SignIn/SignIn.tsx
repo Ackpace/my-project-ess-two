@@ -6,7 +6,7 @@ import "./signIn.scss"
 import TmdbInput, { InputTypes } from "../FormElements/TmdbInput"
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-
+ 
 function SignIn() {
   const [formData, setFormData] = useState({
     email: "",

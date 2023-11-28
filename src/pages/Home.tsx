@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react"
-import axios from "axios"
+import axios from "axios" 
 import Card from "../components/Card/Card"
 import CardSlider from '../components/CardSlider/CardSlider'
 import Tabs from '../components/Tabs/Tabs'

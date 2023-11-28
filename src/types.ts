@@ -1,4 +1,4 @@
-export interface VideoType {
+export interface VideoType { 
     adult: boolean;
     backdrop_path: string;
     genre_ids: number[];

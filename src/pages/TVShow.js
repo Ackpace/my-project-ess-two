@@ -5,7 +5,7 @@ import Pill from '../components/Pill/Pill'
 import { GenreType } from '../types'
 import '../styles/tvshows.scss'
 import Tooltip, { ToolTipPosition } from '../components/Tooltip/Tooltip'
-
+ 
 import axios from "axios"
 
 import Chip from '@mui/material/Chip';

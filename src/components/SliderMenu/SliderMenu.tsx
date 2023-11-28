@@ -31,4 +31,4 @@ const SliderMenu = () => {
     )
 } 
 
-export default SliderMenu
+export default SliderMenu 

@@ -5,8 +5,8 @@ interface ModalProps {
     children: JSX.Element;
     modalHeader?: string;
     toggleModal: () => void;
-}
-
+} 
+ 
 const Modal = (props: ModalProps) => {
     return (
         <div className='modal-container' onClick={props.toggleModal}>

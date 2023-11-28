@@ -1,6 +1,6 @@
 import React, { useEffect, useState, createContext } from 'react'
 import {
-  getAuth,
+  getAuth, 
   User as FirebaseUser,
   onAuthStateChanged,
 } from 'firebase/auth'

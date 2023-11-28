@@ -1,6 +1,6 @@
 import './card.scss'
 
-interface CardOverlayPropType {
+interface CardOverlayPropType { 
     children: JSX.Element
 }
  

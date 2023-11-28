@@ -14,7 +14,7 @@ import Resume from "./components/Resume/Resume";
 import ContentInfo from "./pages/ContentInfo";
 import "./App.scss";
 import './variables.css';
-
+ 
 function App() {
   return (
     <Router> 

@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import counterReducer from './reducers/myMovies/counterSlice'
 import favoritesReducer from './reducers/myMovies/favoritesSlice'
-
+ 
 export const store = configureStore({
     reducer: {
         counter: counterReducer,

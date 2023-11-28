@@ -97,7 +97,7 @@ describe('The DataViewer component', () => {
   });
 });
 */
-
+ 
 jest.mock('./components/CardSlider/CardSlider')
 
 test('ParentComponent rendered', () => {
@@ -132,7 +132,7 @@ describe("About Component",  ()=>{
 
 
 
-it('renders an error with invalid password', () => {
+it('Now renders an error with invalid password', () => {
   
   render(<BrowserRouter><SignIn /> </BrowserRouter>).container;
   const passwordField = screen.getByPlaceholderText('ex) 123123')
@@ -168,7 +168,7 @@ it('renders an error with invalid password', () => {
 */
 
 ///nazov///
-  test("should render About Component correctly", () =>{
+  test("Expect role and button in DragNDrop Component", () =>{
     render(
       <BrowserRouter><DragNDrop /> </BrowserRouter>).container;
       const hList = screen.getByRole("divn");
@@ -224,8 +224,8 @@ it('renders an error with invalid password', () => {
 
 
 //nazov z videa//
-describe("Test the ContentDetails Component",  ()=>{
-        test("render the ContentDetails informations as h elements", () =>{
+describe("Expect right attribute value in DragNDrop Component",  ()=>{
+        test("Expect right attribute value in DragNDrop Component", () =>{
           
           render(
             <BrowserRouter><DragNDrop /> </BrowserRouter>).container;

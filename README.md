@@ -1,5 +1,5 @@
 ## A Clone Project - Streaming Site
-
+ 
 A mock web application with data from The Movie Database, built with React, Redux, Typescript, SCSS, TailwindCSS, and Firebase.
 Demo: https://jayohtmdb.netlify.app/home 
  

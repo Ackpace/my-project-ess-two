@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react"
-import Rate from '../Rate/Rate'
+import Rate from '../Rate/Rate' 
 import CardOverlay from './CardOverlay'
 import Button, { ButtonTypes } from '../Button/Button'
 import { MovieObjectType, VideoType } from '../../types'

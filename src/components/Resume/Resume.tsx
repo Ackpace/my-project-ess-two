@@ -1,5 +1,5 @@
 import './resume.scss';
-
+ 
 function Resume() {
     return (
         <div className='resume-container'>

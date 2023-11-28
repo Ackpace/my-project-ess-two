@@ -43,8 +43,8 @@ const Tooltip = ({ children, content, position, delay }: TooltipType) => {
     const handleMouseLeave = () => {
         clearInterval(timeout)
         setIsActive(false)
-    }
- 
+    } 
+  
     console.profile();
     useEffect(() => {/*
         if (tooltipChildRef.current) {

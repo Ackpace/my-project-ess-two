@@ -5,7 +5,7 @@ import './content-hero.scss'
 import Modal from '../Modal/Modal'
 import noPoster from '../../assets/images/noPoster.png'
 import { MovieWithRateType, PlatformTypes, TVWithRateType } from '../../types'
-
+ 
 interface MovieProp {
     type: PlatformTypes.movie
     content: MovieWithRateType

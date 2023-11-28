@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import classNames from 'classnames'
 import './accordion.scss'
-
+ 
 interface AccordionProp {
     children: JSX.Element
     title: string

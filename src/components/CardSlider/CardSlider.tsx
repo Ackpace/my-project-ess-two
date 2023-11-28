@@ -5,7 +5,7 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons/faAngleRight";
 import Loader from "../../components/Loader/Loader";
 import Button, { ButtonTypes } from "../Button/Button";
 import "./card-slider.scss";
-
+ 
 interface CardSliderProps {
   children: JSX.Element[] | JSX.Element | undefined;
   isLoading: boolean;

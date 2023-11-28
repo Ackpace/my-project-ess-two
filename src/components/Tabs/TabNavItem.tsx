@@ -7,7 +7,7 @@ interface TabNavItemPropTypes {
     isSingleTab?: boolean
     setActiveTab(id: string): void
 }
-
+ 
 const TabNavItem = ({ id, activeTab, title, isSingleTab, setActiveTab }: TabNavItemPropTypes) => {
     const handleClick = () => {
         setActiveTab(id)

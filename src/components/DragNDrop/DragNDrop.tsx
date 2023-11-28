@@ -6,7 +6,7 @@ import { getAuth } from "firebase/auth"
 import { doc, updateDoc, deleteField } from "firebase/firestore"
 import eventBus from '../../assets/utilities/EventBus'
 import { db } from '../../firebase.config'
-
+ 
 function DragNDrop() {
     const [file, setFile] = useState<File>()
     const [fileName, setFileName] = useState('No file selected.')

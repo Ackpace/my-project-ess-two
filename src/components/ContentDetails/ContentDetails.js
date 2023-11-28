@@ -3,7 +3,7 @@ import { useEffect, useState, useCallback } from 'react'
 import { Button } from '@mui/material'
 import "./Content-details.scss";
 
-
+ 
  
 const ContentDetails = ({movie}) =>{
     const img500x500 = "https://image.tmdb.org/t/p/w500" 

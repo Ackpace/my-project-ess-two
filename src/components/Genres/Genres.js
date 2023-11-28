@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from 'react'
 import Chip from '@mui/material/Chip';
 import axios from "axios"
-
+ 
 
 const Genres = ({genres, setGenres, selectedGenres,setSelectedGenres }) =>{
     

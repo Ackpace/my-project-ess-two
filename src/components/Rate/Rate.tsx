@@ -5,7 +5,7 @@ export enum SizeType {
     medium = 'medium',
     large = 'large'
 }
-
+ 
 interface Props {
     rate: number;
     size: SizeType

@@ -6,7 +6,7 @@ interface PillPropTypes {
     children: string,
     selectable?: boolean,
     onClickHandler: (genre: string) => void
-}
+} 
 
 const Pill = ({ children, selectable, onClickHandler }: PillPropTypes) => {
     const [isSelected, setIsSelected] = useState(false)

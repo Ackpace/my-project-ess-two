@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import classNames from "classnames";
 import "./button.scss";
-
+ 
 export enum ButtonTypes {
   gradientFill,
   noBorder,

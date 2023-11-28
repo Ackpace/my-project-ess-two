@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+ 
 const About = () => {
     return (
         <div data-testid="aboutdiv"  className='text-3xl text-white'>
